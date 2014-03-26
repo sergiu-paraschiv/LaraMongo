@@ -1,0 +1,23 @@
+{
+    "name": "sergiu-paraschiv/lara-mongo",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sergiu Paraschiv",
+            "email": "sergiuspk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "SergiuParaschiv\\LaraMongo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
